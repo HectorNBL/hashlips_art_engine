@@ -145,10 +145,10 @@ const addMetadata = (_dna, _edition) => {
     tempMetadata = {
       //Added metadata for solana
       name: tempMetadata.name,
-      symbol: solanaMetadata.symbol,
+      //symbol: solanaMetadata.symbol,
       description: tempMetadata.description,
       //Added metadata for solana
-      seller_fee_basis_points: solanaMetadata.seller_fee_basis_points,
+      //seller_fee_basis_points: solanaMetadata.seller_fee_basis_points,
       image: `${_edition}.png`,
       //Added metadata for solana
       external_url: solanaMetadata.external_url,
@@ -163,7 +163,7 @@ const addMetadata = (_dna, _edition) => {
           },
         ],
         category: "image",
-        creators: solanaMetadata.creators,
+       // creators: solanaMetadata.creators,
       },
     };
   }
